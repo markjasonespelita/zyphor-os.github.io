@@ -13,3 +13,9 @@ add:
 
 	git add pool/main/z/zysh.deb
 	git commit -m "chore: updated zysh package"
+
+pret:
+	sh prettify registry/registry.json
+
+min:
+	sh minify registry/registry.json
