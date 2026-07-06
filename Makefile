@@ -14,6 +14,8 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
+# 	rerun job comment
+
 pret:
 	sh prettify registry/registry.json
 
