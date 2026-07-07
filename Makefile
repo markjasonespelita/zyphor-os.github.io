@@ -5,11 +5,8 @@ add:
 	git add v2-ada-lovelace/dists/stable/main/binary-amd64/Packages.gz
 	git commit -m "chore: updated v2 Ada Lovelace compressed Packages index"
 
-	git add v2-ada-lovelace/pool/main/z/zylearn.deb
-	git commit -m "chore: updated v2 Ada Lovelace zylearn package"
-
-	git add v2-ada-lovelace/pool/main/z/zysh.deb
-	git commit -m "chore: updated v2 Ada Lovelace zysh package"
+	git add v2-ada-lovelace/pool/main/z/zyphor-repo-config.deb
+	git commit -m "chore: updated v2 Ada Lovelace zyphor-repo-config package"
 
 	git add Makefile
 	git commit -m "chore: modified Makefile"
