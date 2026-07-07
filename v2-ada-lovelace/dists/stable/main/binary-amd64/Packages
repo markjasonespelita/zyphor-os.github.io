@@ -27,14 +27,14 @@ Priority: optional
 Description: Zyphor OS Grub Screensaver
 
 Package: zylearn
-Version: 1.0.0-r1-beta-release
+Version: 1.0.1-r2-beta-release
 Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
 Filename: pool/main/z/zylearn.deb
-Size: 4810
-MD5sum: e9395169807dd099ce853c84e86422d9
-SHA1: 8a0a27b39d6d66759e455af8e3032a8f318e3d0e
-SHA256: 463220784082efbef3f7b7dc5172985eacf5a0e00d53089b9bc0191ad901da06
+Size: 4844
+MD5sum: 474d94dda3c7682a1091e0e386f67656
+SHA1: 469162d50c39929c7105daff889164116904aef6
+SHA256: 52108575dcf522e65f03c07846a09bf501e1e134b7d67eb2e013064f64f4c3b2
 Section: utils
 Priority: optional
 Description: Zyphor OS Learning CLI
@@ -214,17 +214,17 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 3.0.0-r2-stable-release
+Version: 3.0.1-r3-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
 Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
-Size: 1844
-MD5sum: a90c1ed83768b297b0eacdd2cec31eea
-SHA1: 4386717535732d450e2968a30ef657c419dff639
-SHA256: 6966b03c678c1b6c30ca15b0107d2dda2d7e58119fb2265507bd616b9838a656
+Size: 1884
+MD5sum: 968c341f50c8e83da085779f724ed563
+SHA1: 9a804f7e19b8e37c6071e344d21697935b0bbaa5
+SHA256: 2537bf1b2b6928e348be8a5d34ff9aed26d128bd42ca7243b8a50b65cc6de37e
 Section: utils
 Description: Zyphor OS Default Shell
 
