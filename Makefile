@@ -12,7 +12,7 @@ add:
 	git commit -m "chore: modified Makefile"
 
 pret:
-	sh prettify registry/registry.json
+	sh prettify v2-ada-lovelace/registry/registry.json
 
 min:
-	sh minify registry/registry.json
+	sh minify v2-ada-lovelace/registry/registry.json
