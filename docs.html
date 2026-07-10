@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en" data-bs-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -203,14 +203,9 @@
     <!-- installation -->
     <section id="installation" class="content-section mb-5">
       <h2 class="fw-bold">Installation</h2>
-      <p>Watch this installation video after you download the .iso bootable file.</p>
-        <div class="ratio ratio-16x9">
-            <iframe
-                src="https://drive.google.com/file/d/1QqyUYzDJKbLRnqAmLOLGIoHBECEsIeuK/preview"
-                allow="autoplay"
-                allowfullscreen>
-            </iframe>
-        </div>
+      <p>ISO File Size: 3.5GB</p>
+      <p>Latest Operating System Version: <span class="_latestVersion">...</span></p>
+      <p>ISO Download (On Github Readme): <a href="https://github.com/zyphor-os/zyphor-os-desktop" class="navlink">Zyphor OS</a></p>
     </section>
 
     <!-- zyphor cli -->
@@ -476,9 +471,9 @@
     <section id="zyphor-updates" class="content-section mb-5">
         <h2 class="fw-bold">Zyphor Updates</h2>
         <p>Installation: <code>zyphor pkg install zyphor-updates</code></p>
-        <div class="alert alert-warning d-flex align-items-start gap-2" role="alert">
+        <div class="alert alert-info d-flex align-items-start gap-2" role="alert">
             <i class="fa-solid fa-lightbulb mt-1"></i>
-            <div>Note: Zyphor Updates is <b>NOT</b> pre-installed and available by default after operating system installation.</div>
+            <div>Note: Zyphor Updates is pre-installed and available by default after operating system installation.</div>
         </div>
         <p><strong>Zyphor Updates</strong> is the official post-installation package for Zyphor OS. It provides a curated collection of software, developer tools, desktop enhancements, system utilities, multimedia applications, and Zyphor-specific components that extend the base operating system experience. </p>
     </section>
@@ -487,11 +482,9 @@
     <section id="zysh" class="content-section mb-5">
         <h2 class="fw-bold">Zysh</h2>
         <p>Installation: <code>zyphor pkg install zysh</code></p>
-        <div class="alert alert-warning d-flex align-items-start gap-2" role="alert">
+        <div class="alert alert-info d-flex align-items-start gap-2" role="alert">
             <i class="fa-solid fa-lightbulb mt-1"></i>
-            <div>
-                Note: Zysh is not included in the default Zyphor OS installation. It is automatically installed as part of the <strong>zyphor-updates</strong> package.
-            </div>
+            <div>Note: Zysh is pre-installed and available by default after operating system installation.</div>
         </div>
         <p>
             <strong>Zysh</strong> is the official Zsh customization layer for Zyphor OS. It enhances the standard Zsh shell with Zyphor-specific branding, version information, color schemes, and terminal experience improvements. Rather than replacing Zsh, Zysh operates on top of it, extending and customizing the shell to provide a consistent and recognizable command-line environment across the Zyphor OS ecosystem.
@@ -559,7 +552,7 @@
   }
 
   // Default to light; could also check matchMedia, kept simple here
-  setTheme('light');
+  setTheme('dark');
 
   themeToggle.addEventListener('click', () => {
     const current = root.getAttribute('data-bs-theme');
