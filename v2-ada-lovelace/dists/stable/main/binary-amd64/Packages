@@ -82,28 +82,28 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 27.0.0-r11-stable-release
+Version: 28.0.0-r12-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1104
-MD5sum: c5dce49cf05652ffc887bc48e999feaa
-SHA1: d5f70b4de30e281285268affaa4b954573a0001c
-SHA256: 2447707a1ffe4bbde6326556196cd6153175b1f50a226b9cd2ba613a65131d07
+Size: 1100
+MD5sum: 5165c1aef1067fd3fa22589706dff41a
+SHA1: f785a6cefdc6c169586caeed76012683faa5eee8
+SHA256: 328831cf4c6a7db5a59f137f96d987f8542da688361e73169a258802b02d9fe7
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
 
 Package: zyphor-repo-config
-Version: 2.0.0-r2-stable-release
+Version: 3.0.0-r3-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Filename: pool/main/z/zyphor-repo-config.deb
-Size: 928
-MD5sum: a5ef495833417676ae0679ef59c62ecb
-SHA1: f6fce185b6b97e13909beb6c718eedbec02361bf
-SHA256: 001f99dd6407c5c27f749b465e4369aec3de27152cbfa7604b49dbffa385d2f6
+Size: 940
+MD5sum: 69af8af88521d2dd2e3bd4710e7e0c08
+SHA1: 8a384f4c6542918b7a39d8344277a94e16272e4f
+SHA256: 22f2320feaf53a66f2c1466916be3134a4aeb48468d81be17437a62bf210dd36
 Section: admin
 Priority: optional
 Description: Zyphor OS repository configuration
@@ -198,15 +198,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 17.0.0-r11-stable-release
+Version: 18.0.0-r12-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 2820
-MD5sum: 96642b086939bd8acebd83a7c3a77a59
-SHA1: 7f69618dcee6668ad01b26fd011d196f4e8db60a
-SHA256: c117110bf6dbe576d73c22772c29313557af783e05194fae5dee159e94f861a5
+Size: 2984
+MD5sum: 38d0efdeb8059b009934456fcb4c11f3
+SHA1: a9d5d9de9e4bbe0316622dcab0cf3c1f35ae8272
+SHA256: 03e2897bf4a696eb7d50256fd7df78120a3093692ccad52324213d2e17ac5dc3
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
