@@ -141,13 +141,18 @@
       <li class="nav-item"><a class="nav-link" href="#installation"><i class="fa-solid fa-download me-2"></i>Installation</a></li>
     </ul>
 
-    <div class="nav-section-title">Packages</div>
+    <div class="nav-section-title">Custom Packages</div>
     <ul class="nav flex-column">
       <li class="nav-item"><a class="nav-link" href="#zyphor-cli"><i class="fa-solid fa-box me-2"></i>Zyphor CLI</a></li>
       <li class="nav-item"><a class="nav-link" href="#zyphor-command-center"><i class="fa-solid fa-box me-2"></i>Zyphor Command Center</a></li>
       <li class="nav-item"><a class="nav-link" href="#zylearn"><i class="fa-solid fa-box me-2"></i>ZyLearn</a></li>
       <li class="nav-item"><a class="nav-link" href="#zyphor-updates"><i class="fa-solid fa-box me-2"></i>Zyphor Updates</a></li>
       <li class="nav-item"><a class="nav-link" href="#zysh"><i class="fa-solid fa-box me-2"></i>Zysh</a></li>
+    </ul>
+
+    <div class="nav-section-title">Contributing</div>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link" href="#contibuting-packages"><i class="fa-solid fa-box me-2"></i>Packages</a></li>
     </ul>
 
 
@@ -491,10 +496,80 @@
         </p>
     </section>
 
+    <hr>
+
+    <!-- ontibuting-packages-->
+    <section id="contibuting-packages" class="content-section mb-5">
+        <h2 class="fw-bold">Contibuting to Packages</h2>
+        <p>Zyphor OS maintains its own collection of official packages that are developed specifically for the distribution. These packages include system utilities, desktop enhancements, command-line tools, themes, configuration packages, applications, and other components that make up the Zyphor OS experience.</p>
+        <ol>
+          <li><code>zyphor-cli</code> - shell script</li>
+          <li><code>zyphor-command-center</code> - python</li>
+          <li><code>zylearn</code> - C</li>
+          <li><code>zyphor-updates</code> - Debian config file</li>
+          <li><code>zysh</code> - shell script</li>
+          <li><code>zyshell</code> - C (removed temporary)</li>
+          <li><code>fastfetch-config-1</code> - filesystem config and Debian config file</li>
+          <li><code>grub-screensaver-1</code> - filesystem config and Debian config file</li>
+          <li><code>zyphor-display-mac-v1</code> - filesystem config and Debian config file (optional - for v1 Stable)</li>
+          <li><code>zyphor-os-release</code> - filsystem config and Debian config file</li>
+          <li><code>zyphor-repo-config</code> - filsystem config and Debian config file</li>
+          <li><code>zyphor-whats-new</code> - filsystem config, html and Debian config file</li>
+          <li><code>zyphor-wallpapers-default-2026-2027</code> - filsystem config, images and Debian config file</li>
+          <li><code>zyphor-wallpapers-nature</code> - filsystem config, images and Debian config file</li>
+          <li><code>zyphor-wallpapers-pragmata</code> - filsystem config, images and Debian config file</li>
+        </ol>
+        <b>How to Contribute?</b>
+
+        <p>
+        Want to help improve Zyphor OS? Awesome! You can contribute by updating existing packages, creating new ones, fixing bugs, improving the documentation, or adding new features.
+        </p>
+
+        <ul>
+          <li><b>Step 1:</b> Fork the <code>https://github.com/zyphor-os/zyphor-os-desktop</code> repository.</li>
+          <li><b>Step 2:</b> Clone your fork:
+            <br><code>git clone https://github.com/YOUR_USERNAME/zyphor-os-desktop</code>
+          </li>
+          <li><b>Step 3:</b> Open the <code>/pkg</code> folder.</li>
+          <li><b>Step 4:</b> Find the package you want to update, or create a new one.</li>
+          <li><b>Step 5:</b> Make your changes and test them.</li>
+          <li><b>Step 6:</b> Commit your changes and push them to your GitHub fork.</li>
+          <li><b>Step 7:</b> Open a Pull Request so the Zyphor OS maintainers can review your work.</li>
+        </ul>
+
+        <b>How to Test a Package?</b>
+
+        <p>
+        The easiest way to test a package is by installing <code>zyphor-cli</code>. It comes with a command that builds packages for you:
+        <br><code>zyphor build package PACKAGE_NAME</code>
+        </p>
+
+        <p>
+        For example, if you're updating the <code>zylearn</code> package in Ada Lovelace LTS:
+        </p>
+
+        <ol>
+          <li><code>cd pkg/v2/zylearn</code></li>
+          <li>Update the version number in <code>DEBIAN/control</code>.</li>
+          <li>Edit the files you want to change.</li>
+          <li>Go back to the package directory:
+            <br><code>cd ..</code>
+          </li>
+          <li>Build the package:
+            <br><code>zyphor build package zylearn</code>
+          </li>
+          <li>A <code>.deb</code> file will be created, ready for testing.</li>
+        </ol>
+
+        <p class="alert alert-warning">
+        💡 Always test your package in a virtual machine or another safe environment before installing it on your main system.
+        </p>
+
+      </section>
+
     <footer class="border-top pt-4 pb-5 text-secondary small">
         © <span id="currentYear"></span> Zyphor OS
     </footer>
-    
 
   </div>
 </div>
