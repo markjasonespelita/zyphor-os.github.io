@@ -40,15 +40,15 @@ Priority: optional
 Description: Zyphor OS Learning CLI
 
 Package: zyphor-cli
-Version: 4.1.0-r6-stable-release
+Version: 5.0.0-r7-stable-release
 Architecture: all
 Maintainer: Zyphor OS Team
 Depends: bash
 Filename: pool/main/z/zyphor-cli.deb
-Size: 14012
-MD5sum: 557e6b2262f659d746ac00908e92c8cf
-SHA1: 54ad70c8787301937f0296fd05c29a424815f5fc
-SHA256: 473a6a5f8f5622394efc19ca3a12ffb69261246670f5d0d755c1dca31a149c87
+Size: 14032
+MD5sum: 51a207eaced8012e3a9c6d1d3706849f
+SHA1: 6e6459bd994a85584cd68f1353326c8c07fff424
+SHA256: 5399cebbba20737819b788eff40a914b821eea1cc13144761b5acbe689ee8b7d
 Section: utils
 Priority: optional
 Description: Zyphor OS CLI abstraction layer
