@@ -1,15 +1,15 @@
 add:
-	git add v2-ada-lovelace/dists/stable/main/binary-amd64/Packages
-	git commit -m "chore: updated v2 Ada Lovelace Packages index"
+	git add index.html
+	git commit -m "docs: updated homepage"
 
-	git add v2-ada-lovelace/dists/stable/main/binary-amd64/Packages.gz
-	git commit -m "chore: updated v2 Ada Lovelace compressed Packages index"
+	git add assets/images/filo.jpg
+	git commit -m "feat: added Filo image"
 
-	git add v2-ada-lovelace/pool/main/z/zyphor-os-release.deb
-	git commit -m "chore: updated v2 Ada Lovelace zyphor-os-release package"
+	git add assets/images/rel.jpg
+	git commit -m "feat: added release image"
 
-	git add v2-ada-lovelace/pool/main/z/zyphor-whats-new.deb
-	git commit -m "chore: updated v2 Ada Lovelace zyphor-whats-new package"
+	git add assets/images/why.jpg
+	git commit -m "feat: added why Zyphor image"
 
 	git add Makefile
 	git commit -m "chore: modified Makefile"
