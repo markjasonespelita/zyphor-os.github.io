@@ -54,18 +54,50 @@ Priority: optional
 Description: Zyphor OS CLI abstraction layer
 
 Package: zyphor-command-center
-Version: 6.0.0-r2-stable-release
+Version: 7.0.0-r3-stable-release
 Architecture: all
 Maintainer: Zyphor OS Team
-Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new
+Depends: python3,python3-pyqt6,curl,jq,python3-pyqt6.qtwebengine,zyphor-whats-new,zyphor-command-center-web
 Filename: pool/main/z/zyphor-command-center.deb
-Size: 125002
-MD5sum: c6a91904c720fd4e56481e88046f3779
-SHA1: 1d982fe8a4768ff163c34d309f5ddb7e55d87760
-SHA256: 5331189821adbea156b95627d4763a5fd890510292fc0752a965c66291e06526
+Size: 124896
+MD5sum: 8f9cf869e2ea6dcc6e55a1ebe90adb48
+SHA1: 2650f1ba69ef9487e4069aff377d04079f263db9
+SHA256: 3f82eb37ebfa4f92594ce938fec90b8be4836da5c508396384dccc8b5fee2b56
 Section: utils
 Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
+
+Package: zyphor-command-center-web
+Version: 1.0.0-r1-beta-release
+Architecture: all
+Maintainer: Mark Jason Penote Espelita <markjasonespelita@gmail.com>
+Depends: composer,
+ php-cli,
+ php-sqlite3,
+ php-mbstring,
+ php-xml,
+ php-curl,
+ php-zip,
+ php-bcmath,
+ php-intl,
+ php-tokenizer,
+ php-fileinfo
+Recommends: sqlite3
+Filename: pool/main/z/zyphor-command-center-web.deb
+Size: 135000
+MD5sum: e2e5bf2c5ae5323c8817e533bb40877a
+SHA1: 71efe1fcbada65dc5e33a501a39f0c0b5eca5094
+SHA256: e0d8f23d1b306d7700ae611701c6359c64e6dabef7ee3e73ae37d4b9416dce3b
+Section: admin
+Priority: optional
+Homepage: https://zyphoros.github.io
+Description: Zyphor Command Center Web
+ A Laravel-based web interface for Zyphor Command Center.
+ .
+ Provides the graphical management interface used by the
+ Zyphor Command Center desktop application, including
+ user management, dashboards, release notes, package
+ management, analytics, and system configuration pages.
 
 Package: zyphor-display-mac-v1
 Version: 1.0.11
@@ -82,15 +114,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 29.0.0-r13-stable-release
+Version: 30.0.0-r14-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1104
-MD5sum: a012fcbd30d104ee90bca1f994c44bb3
-SHA1: 4b6b93e34fb4db764f9080c8dfd59ce240b0e914
-SHA256: 152eaa8eb319f541c40dda70c8eaa2e3a149caebb9d9fb0bdba5ece031b8df2c
+MD5sum: b26c9f7e86afdc3ce6845784313b42f5
+SHA1: d709d04381817b15575c64c3a5a86294d7c1e381
+SHA256: 8a6ad71041fcddc35c01302c442620f1650f8caf888b1049b36cd1f3b2cadf68
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -198,15 +230,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 19.0.0-r14-stable-release
+Version: 20.0.0-r15-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3096
-MD5sum: 59e8a544408e49dca506aa818bd8478d
-SHA1: 30cbfdfc62d39f9a74f58054f8f3991db5c7578f
-SHA256: 00ccef537c383865d9ce71c271d0e109a002cdaebc22479b41b191a30c2da233
+Size: 3428
+MD5sum: e4aff8fe250c661a9d5bf2e40b4cab66
+SHA1: 65db0bc74f988097a7935752c90254629a2119ed
+SHA256: e5323c2435083ada3ff4bd5f8d208303905acd0bc29aabbfb703053c322e1522
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
