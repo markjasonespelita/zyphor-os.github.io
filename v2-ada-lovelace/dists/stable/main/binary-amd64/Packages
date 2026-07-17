@@ -68,7 +68,7 @@ Priority: optional
 Description: Zyphor command center GUI control panel for Zyphor OS tools
 
 Package: zyphor-command-center-web
-Version: 1.0.0-r1-beta-release
+Version: 1.0.1-r1-beta-release
 Architecture: all
 Maintainer: Mark Jason Penote Espelita <markjasonespelita@gmail.com>
 Depends: composer,
@@ -84,10 +84,10 @@ Depends: composer,
  php-fileinfo
 Recommends: sqlite3
 Filename: pool/main/z/zyphor-command-center-web.deb
-Size: 135000
-MD5sum: e2e5bf2c5ae5323c8817e533bb40877a
-SHA1: 71efe1fcbada65dc5e33a501a39f0c0b5eca5094
-SHA256: e0d8f23d1b306d7700ae611701c6359c64e6dabef7ee3e73ae37d4b9416dce3b
+Size: 135004
+MD5sum: 7037c1333e4858c0c2868e97d287beee
+SHA1: f64477389fc6512cdb9ed180444b7db7d06345e6
+SHA256: aa07e6a7e93956b3ec5eba1c86fe64e8c1e80a3b4dbd5f44e1a3ca7b64bb7703
 Section: admin
 Priority: optional
 Homepage: https://zyphoros.github.io
