@@ -27,14 +27,14 @@ Priority: optional
 Description: Zyphor OS Grub Screensaver
 
 Package: zylearn
-Version: 1.0.1-r2-beta-release
+Version: 2.0.0-r2-beta-release
 Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
 Filename: pool/main/z/zylearn.deb
-Size: 4844
-MD5sum: 474d94dda3c7682a1091e0e386f67656
-SHA1: 469162d50c39929c7105daff889164116904aef6
-SHA256: 52108575dcf522e65f03c07846a09bf501e1e134b7d67eb2e013064f64f4c3b2
+Size: 12112
+MD5sum: 60b5014a01a15a0ff779451f4ce828d7
+SHA1: 7304d2fc321f2519ec09d7c8fc8967b5b81e987a
+SHA256: df95556ae464700a1d3ea6e322ca0a8416c9b6e6106e6c5dc3abfd50489ef13c
 Section: utils
 Priority: optional
 Description: Zyphor OS Learning CLI
