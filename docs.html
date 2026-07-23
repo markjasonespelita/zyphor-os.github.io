@@ -143,7 +143,8 @@
 
     <div class="nav-section-title">How To</div>
     <ul class="nav flex-column">
-      <li class="nav-item"><a class="nav-link" href="#profile-management"><i class="fa-solid fa-user me-2"></i>Profile Management</a></li>
+      <li class="nav-item"><a class="nav-link" href="#profile-management"><i class="fa-solid fa-user me-2"></i>Manage Profile</a></li>
+      <li class="nav-item"><a class="nav-link" href="#firewall-management"><i class="fa-solid fa-shield me-2"></i>Manage Firewall</a></li>
     </ul>
 
     <div class="nav-section-title">Custom Packages</div>
@@ -246,6 +247,107 @@
         </div>
     </section>
 
+	
+	<section id="firewall-management" class="content-section py-5">
+	    <div class="row">
+		<div class="col-lg-12">
+
+		    <!-- Section Header -->
+		    <div class="mb-4">
+			<h2 class="fw-bold">Manage Firewall</h2>
+			<p class="text-muted">
+			    Zyphor OS uses <strong>UFW (Uncomplicated Firewall)</strong> to provide
+			    a simple and reliable way to manage firewall rules and protect your system
+			    from unauthorized network access.
+			</p>
+		    </div>
+
+		    <!-- Enable Firewall -->
+		    <div class="card mb-4 shadow-sm">
+			<div class="card-body">
+			    <h5 class="card-title">Enable the Firewall</h5>
+			    <p class="card-text">
+				Turn on the firewall to start protecting your system from
+				unauthorized incoming connections.
+			    </p>
+
+			    <pre class="bg-dark text-light p-3 rounded"><code>sudo ufw enable</code></pre>
+			</div>
+		    </div>
+
+		    <!-- Check Status -->
+		    <div class="card mb-4 shadow-sm">
+			<div class="card-body">
+			    <h5 class="card-title">Check Firewall Status</h5>
+			    <p class="card-text">
+				Check whether the firewall is active and view the currently
+				configured firewall rules.
+			    </p>
+
+			    <pre class="bg-dark text-light p-3 rounded"><code>sudo ufw status</code></pre>
+			</div>
+		    </div>
+
+		    <!-- Allow Port -->
+		    <div class="card mb-4 shadow-sm">
+			<div class="card-body">
+			    <h5 class="card-title">Allow a Port</h5>
+			    <p class="card-text">
+				Allow incoming connections to a specific port. For example,
+				the following command allows SSH connections on port 22.
+			    </p>
+
+			    <pre class="bg-dark text-light p-3 rounded"><code>sudo ufw allow 22/tcp</code></pre>
+			</div>
+		    </div>
+
+		    <!-- Deny Port -->
+		    <div class="card mb-4 shadow-sm">
+			<div class="card-body">
+			    <h5 class="card-title">Deny a Port</h5>
+			    <p class="card-text">
+				Block incoming connections to a specific port.
+			    </p>
+
+			    <pre class="bg-dark text-light p-3 rounded"><code>sudo ufw deny 22/tcp</code></pre>
+			</div>
+		    </div>
+
+		    <!-- Delete Rule -->
+		    <div class="card mb-4 shadow-sm">
+			<div class="card-body">
+			    <h5 class="card-title">Remove a Firewall Rule</h5>
+			    <p class="card-text">
+				Remove an existing firewall rule when it is no longer needed.
+			    </p>
+
+			    <pre class="bg-dark text-light p-3 rounded"><code>sudo ufw delete allow 22/tcp</code></pre>
+			</div>
+		    </div>
+
+		    <!-- Disable Firewall -->
+		    <div class="card mb-4 shadow-sm">
+			<div class="card-body">
+			    <h5 class="card-title">Disable the Firewall</h5>
+			    <p class="card-text">
+				Temporarily disable UFW if firewall protection is not required.
+			    </p>
+
+			    <pre class="bg-dark text-light p-3 rounded"><code>sudo ufw disable</code></pre>
+			</div>
+		    </div>
+
+		    <!-- Warning -->
+		    <div class="alert alert-warning" role="alert">
+			<strong>Warning:</strong>
+			Before enabling UFW on a remote server, make sure the required
+			management ports, such as SSH (port 22), are allowed. Otherwise,
+			you may lose remote access to the system.
+		    </div>
+
+		</div>
+	    </div>
+	</section>
     <hr>
     <h1 style="text-align: center;">Custom Packages</h1>
     <hr>
