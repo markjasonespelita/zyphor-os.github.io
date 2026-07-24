@@ -5,8 +5,14 @@ add:
 	git add v2-ada-lovelace/dists/stable/main/binary-amd64/Packages.gz
 	git commit -m "chore: updated compressed Packages index"
 
-	git add v2-ada-lovelace/pool/main/z/zyphor-command-center-web.deb
-	git commit -m "feat: updated zyphor command center web package"
+	git add v2-ada-lovelace/pool/main/z/zyphor-os-release.deb
+	git commit -m "feat: updated zyphor os release package"
+
+	git add v2-ada-lovelace/pool/main/z/zyphor-updates.deb
+	git commit -m "feat: updated zyphor updates package"
+
+	git add v2-ada-lovelace/pool/main/z/zyphor-whats-new.deb
+	git commit -m "feat: updated zyphor whats new package"
 
 	git add Makefile
 	git commit -m "chore: modified Makefile"
