@@ -114,15 +114,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 30.0.0-r14-stable-release
+Version: 31.0.0-r15-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1104
-MD5sum: b26c9f7e86afdc3ce6845784313b42f5
-SHA1: d709d04381817b15575c64c3a5a86294d7c1e381
-SHA256: 8a6ad71041fcddc35c01302c442620f1650f8caf888b1049b36cd1f3b2cadf68
+MD5sum: 285e7a5977e175e834469ec6c7252024
+SHA1: 8518e6da00741ec030452d2d0528d3ed1112389f
+SHA256: 430bc1435cd521e67ed003b5743e99ab81ae954d306b6d5a091792c37b64a677
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -142,7 +142,7 @@ Description: Zyphor OS repository configuration
  Installs and manages the Zyphor OS APT repository configuration.
 
 Package: zyphor-updates
-Version: 7.0.0-r1-stable-release
+Version: 8.0.0-r8-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: zyphor-os-release,
@@ -171,18 +171,20 @@ Depends: zyphor-os-release,
  guvcview,
  libreoffice,
  vlc,
- flameshot,
  drawing,
  simplescreenrecorder,
  ufw,
+ ksnip,
  zysh,
  zyphor-whats-new,
  zyphor-repo-config
+Conflicts: flameshot
+Replaces: flameshot
 Filename: pool/main/z/zyphor-updates.deb
-Size: 936
-MD5sum: 74aa185011fdab11c2d381aefc7a94cd
-SHA1: 7d84268373b05cc701b94beefde184950c0cae62
-SHA256: 4637a7179fc584619bfa36fee324a51d4e4dc9c6211a5df1244df4ec02e0b7d0
+Size: 956
+MD5sum: 9a279f7fd1fdd691a06c82cee2c2f806
+SHA1: 43f50c6109f8c70a0c7f0cdd63f95fd57e0468c7
+SHA256: d7608d7a2293bf8eba0256aff239c59e998fec28adcd925f66515c91f325d94e
 Section: utils
 Priority: optional
 Description: Zyphor OS Updates
@@ -230,15 +232,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 20.0.0-r15-stable-release
+Version: 21.0.0-r16-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3428
-MD5sum: e4aff8fe250c661a9d5bf2e40b4cab66
-SHA1: 65db0bc74f988097a7935752c90254629a2119ed
-SHA256: e5323c2435083ada3ff4bd5f8d208303905acd0bc29aabbfb703053c322e1522
+Size: 3596
+MD5sum: 7f5df0ce504c1c5e171553e124ca6648
+SHA1: 05d0c426dc18206aadc040f2f0fb0804a6ea6edd
+SHA256: 54d2980616893255a2067bae33dee5af580c9fe94e0723a2a6a88a7004772b7a
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
