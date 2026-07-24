@@ -232,15 +232,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 21.0.0-r16-stable-release
+Version: 21.0.1-r17-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3596
-MD5sum: 7f5df0ce504c1c5e171553e124ca6648
-SHA1: 05d0c426dc18206aadc040f2f0fb0804a6ea6edd
-SHA256: 54d2980616893255a2067bae33dee5af580c9fe94e0723a2a6a88a7004772b7a
+Size: 3600
+MD5sum: 2af7e1ad8338ca07249eb274e8c649a9
+SHA1: 54d1e3232410c878ccf7362416f3491ce583000c
+SHA256: df18d0a9dfd3857ca819f14c7019a2162c4feb8b0fe32ac7abd42245ff77d6c6
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
