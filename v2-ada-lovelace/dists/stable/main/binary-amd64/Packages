@@ -26,6 +26,19 @@ Section: utils
 Priority: optional
 Description: Zyphor OS Grub Screensaver
 
+Package: zycamera-launcher
+Version: 1.0.0-r1-stable-release
+Architecture: all
+Maintainer: Mark Jason Espelita & Zyphor OS Team
+Filename: pool/main/z/zycamera-launcher.deb
+Size: 40688
+MD5sum: e643d1b82998d5e803118a09d3a55e9c
+SHA1: 6b2b5248afc4dc69501700eb5238796f3dffc9ca
+SHA256: e45f9b0637812fae31a27dc9734876bf4f8dd657e6044d20747fadfa133127c4
+Section: utils
+Priority: optional
+Description: Zyphor OS Camera Launcher
+
 Package: zylearn
 Version: 2.0.0-r2-beta-release
 Architecture: all
