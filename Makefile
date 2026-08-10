@@ -6,7 +6,7 @@ add:
 	git commit -m "chore: updated compressed Packages index"
 
 	git add v2-ada-lovelace/pool/main/z/zywin.deb
-	git commit -m "feat: updated zywin package"
+	git commit -m "fix: updated zywin package"
 
 	git add Makefile
 	git commit -m "chore: modified Makefile"
