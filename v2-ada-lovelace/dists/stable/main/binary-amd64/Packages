@@ -290,14 +290,14 @@ Priority: optional
 Description: Zyphor OS Default Shell
 
 Package: zywin
-Version: 1.0.1-stable-release
+Version: 1.0.2-stable-release
 Architecture: all
 Maintainer: Dan Stephen B. Blanco & Zyphor OS Team
 Filename: pool/main/z/zywin.deb
-Size: 16568
-MD5sum: e16ad447c9edcff2f4e81e0c4d2a38dd
-SHA1: 7c4a775a3269e62bd6379447e45ce3f0d76e275e
-SHA256: 94e8df33a100ef8518f2686cb0fe07aa40395d89ca6aeb0d0db15f19d21d7abc
+Size: 21320
+MD5sum: 4ac98aa741de2be5d3477e31c2b7c164
+SHA1: c5f1a4f1c570c29b77e05e79d3a0c3dd36a7f634
+SHA256: 0612e7f9e8f2c13069841ab1d650d90017aa59909d95cbd1d0c8f15813fdeeb2
 Section: utils
 Priority: optional
 Description: Zyphor OS Windows Installer Application
