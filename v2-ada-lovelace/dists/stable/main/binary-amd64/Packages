@@ -40,14 +40,14 @@ Priority: optional
 Description: Zyphor OS Camera Launcher
 
 Package: zylearn
-Version: 2.0.0-r2-beta-release
+Version: 3.0.1-r3-stable-release
 Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
 Filename: pool/main/z/zylearn.deb
-Size: 12112
-MD5sum: 60b5014a01a15a0ff779451f4ce828d7
-SHA1: 7304d2fc321f2519ec09d7c8fc8967b5b81e987a
-SHA256: df95556ae464700a1d3ea6e322ca0a8416c9b6e6106e6c5dc3abfd50489ef13c
+Size: 12096
+MD5sum: b73f07444f360db88f8ffe22a095e0f2
+SHA1: 1720eb97ff1285cbbe201c83f7545641536e9e19
+SHA256: bc317682de55472ddba709f55832f57cca7284fc480088a788a5d1fba022bc79
 Section: utils
 Priority: optional
 Description: Zyphor OS Learning CLI
