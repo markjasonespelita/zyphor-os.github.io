@@ -7,13 +7,6 @@ add:
 
 	git add v2-ada-lovelace/pool/main/z/zyphor-cli.deb
 	git commit -m "feat: updated zyphor cli package"
-
-	git add v2-ada-lovelace/pool/main/z/zyphor-os-release.deb
-	git commit -m "feat: updated zyphor os release package"
-
-	git add v2-ada-lovelace/pool/main/z/zyphor-whats-new.deb
-	git commit -m "feat: updated zyphor whats new package"
-
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
