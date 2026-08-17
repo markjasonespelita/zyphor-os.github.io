@@ -127,15 +127,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 35.0.0-r19-stable-release
+Version: 36.0.0-r20-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1096
-MD5sum: ff905744a112d1f8a8314a648134f0ef
-SHA1: 0b7c9b544c7c8e26f765f47721f9760d721ca074
-SHA256: d608c6977ff41948b2fda464d5124de92b248fdaa15f641a27590c5f3d0cb5ef
+MD5sum: 23a724417a5fe630fa1571e52b71cba9
+SHA1: 9eb397019da736d0b5a1131e91bd824b6c566656
+SHA256: 425297e3ade35f2e787cb263777bc5ead82df294362667fcef5accd269ec3917
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -245,15 +245,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 25.0.0-r21-stable-release
+Version: 26.0.0-r22-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3104
-MD5sum: 2546d053fe24656695249d96d0a99f0a
-SHA1: e5a1d8e1e5490edde0f65c5805de2564e2f6561f
-SHA256: 35d837f02ffd46cb53fa5f70fc70bf10228b1e56b67b69272ec9de79fbfe09d8
+Size: 3324
+MD5sum: 89be2faee21c13ef359b76bbd6e046a6
+SHA1: 6119d1e6ade09890397fc4d0eb0b45ba3a7da2b4
+SHA256: 2c1d7938d7daa01d56b1c2bcfa0271e302377be31e7a6e291acdfa0274368202
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
@@ -301,4 +301,18 @@ SHA256: 2187601695896f7636e74919ba1d1853db0def4faf956168a97371b11a16ff4c
 Section: utils
 Priority: optional
 Description: Zyphor OS Windows Installer Application
+
+Package: zywin-ui
+Version: 1.0.0-r1-stable-release
+Architecture: all
+Maintainer: Mark Jason Espelita & Zyphor OS Team
+Depends: zywin
+Filename: pool/main/z/zywin-ui.deb
+Size: 168648
+MD5sum: 6a6294a124fec66e270fc64f9241cd41
+SHA1: a2009a60a24b0bbc8fa8714937a9e77225f5b8c3
+SHA256: 4662d45b3aac01a72ab9c6da8e9be89cfa8b3b4c23a580ec7516558586876c1b
+Section: utils
+Priority: optional
+Description: Zyphor OS zywin-ui Application
 
