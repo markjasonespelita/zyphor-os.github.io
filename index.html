@@ -173,6 +173,21 @@
             font-size:1.25rem;
             opacity:.9;
         }
+
+        /* notice */
+
+        .zyphor-notice{
+            background: linear-gradient(135deg, rgba(77,230,255,.08), rgba(74,108,255,.08));
+            border: 1px solid rgba(77,230,255,.25);
+            border-radius: 14px;
+            color: #fff;
+            padding: 16px 20px;
+            backdrop-filter: blur(6px);
+        }
+
+        .zyphor-notice strong{
+            color: var(--zyphor-primary);
+        }
     </style>
 </head>
 <body>
@@ -200,6 +215,22 @@
 <main>
     <section id="home" class="hero">
         <div class="container">
+
+            <!-- NEW: redesign notice banner -->
+            <div class="alert zyphor-notice d-flex align-items-center flex-wrap gap-2 mb-4" role="alert">
+                <i class="feature-icon me-2">⚡</i>
+                <div class="flex-grow-1">
+                    <strong>We've launched a new site!</strong>
+                    <span class="opacity-75"> This page is legacy — check out our redesigned website, updated documentation, and new wiki.</span>
+                </div>
+                <div class="d-flex gap-2 flex-wrap">
+                    <a href="https://zyphor-os.vercel.app" class="btn btn-sm btn-zyphor">New Website</a>
+                    <a href="https://zyphor-os.vercel.app/documentation" class="btn btn-sm btn-outline-light">Docs</a>
+                    <a href="https://white-opossum-308929.hostingersite.com/zyphor-os-wiki/" class="btn btn-sm btn-outline-light">Wiki</a>
+                </div>
+            </div>
+            <!-- END notice banner -->
+
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h1 class="hero-title">
