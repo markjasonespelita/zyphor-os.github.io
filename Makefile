@@ -12,7 +12,7 @@ add:
 	git commit -m "feat: updated zyphor whats new package"
 
 	git add v2-ada-lovelace/pool/main/z/zywin-ui.deb
-	git commit -m "feat: added zywin-ui package"
+	git commit -m "feat: updated zywin-ui package"
 	
 	git add Makefile
 	git commit -m "chore: modified Makefile"
