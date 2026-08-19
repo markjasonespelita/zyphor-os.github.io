@@ -11,8 +11,14 @@ add:
 	git add v2-ada-lovelace/pool/main/z/zyphor-os-release.deb
 	git commit -m "feat: updated zyphor-os-release package"
 
+	git add v2-ada-lovelace/pool/main/z/zyphor-repo-config.deb
+	git commit -m "feat: added zyphor repo config package"
+
 	git add v2-ada-lovelace/pool/main/z/zyphor-whats-new.deb
 	git commit -m "feat: updated zyphor-whats-new package"
+
+	git add ada-lovelace-lts/
+	git commit -m "feat: added Ada Lovelace LTS repository"
 	
 	git add Makefile
 	git commit -m "chore: modified Makefile"
