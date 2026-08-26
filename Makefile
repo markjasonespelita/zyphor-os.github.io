@@ -1,6 +1,6 @@
 add:
-	git add Makefile
-	git commit -m "chore: modified Makefile"
+# 	git add Makefile
+# 	git commit -m "chore: modified Makefile"
 
 	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages
 	git commit -m "chore: update Packages index"
