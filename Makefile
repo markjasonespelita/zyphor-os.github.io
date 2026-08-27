@@ -17,9 +17,6 @@ add:
 	git add ada-lovelace-test/dists/ada-lovelace-test/main/binary-amd64/Packages.gz
 	git commit -m "chore: update test compressed Packages index"
 
-	git add ada-lovelace-test/pool/main/z/zyphor-archive-keyring.deb
-	git commit -m "chore: update test archive keyring package"
-
 	git add ada-lovelace-test/pool/main/z/zyphor-repo-config.deb
 	git commit -m "chore: update test repo config package"
 
