@@ -1,0 +1,24 @@
+Architectures: amd64
+Codename: ada-lovelace-test
+Components: main
+Date: Thu, 27 Aug 2026 04:39:46 +0000
+Description: Zyphor OS ada-lovelace-test Repository
+Label: Zyphor OS
+Origin: Zyphor OS
+Suite: ada-lovelace-test
+MD5Sum:
+ a4a2b1ee2211a8556ea244dd68d8b9c9              216 Release
+ d624c2f4f1ebe785cfc2179dcd95bd5e             9685 main/binary-amd64/Packages
+ d26396572357845950eeb645ad688250             3475 main/binary-amd64/Packages.gz
+SHA1:
+ 90b2be72d915feb9c2e5013c49b7cf2c564da8dc              216 Release
+ 6a317a1f3bf9dc5c312c3e352a44f1de044e4fdd             9685 main/binary-amd64/Packages
+ 1739a8ea508586cdb03e392fdc833a064a063962             3475 main/binary-amd64/Packages.gz
+SHA256:
+ 2e45f3a2fddac2e812bc0475e91f574466292dfd2149b30953fbea01be19f192              216 Release
+ d4c5f5b41f6f8ebe77ea6372818d6f29edda381539fb48b3dfc7135d84fadfc4             9685 main/binary-amd64/Packages
+ 96388512132cd292178e89720a2c28df95e55007b84036e72c141f813041f0ec             3475 main/binary-amd64/Packages.gz
+SHA512:
+ 46f8fd69caa26136605101044b4423617519d752a4354f009773c93348da689c952aa9608b4b476cbcd5db7c206e347ac2c54c679a7d762e8e4b294255a37eb5              216 Release
+ c3a5964c5a2136137cbb0d7be6288541a9f44034fe6ded11723b9ccb96287c57be2a9fecc58a2790772ca2660dfe76b7c23463a1c559e95eedc007bd7f604204             9685 main/binary-amd64/Packages
+ 170b8c6d98591277258e8f1466c17f100732ad2fc12452be511bd0027d1527151ecda5d98979b40df51788667770b7b26f122711448f0b428b736dab38762291             3475 main/binary-amd64/Packages.gz
