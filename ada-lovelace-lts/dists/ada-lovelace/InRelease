@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: ada-lovelace
+Components: main
+Date: Thu, 27 Aug 2026 06:51:50 +0000
+Description: Zyphor OS ada-lovelace Repository
+Label: Zyphor OS
+Origin: Zyphor OS
+Suite: ada-lovelace
+MD5Sum:
+ 3042ca948239fc5c676d2e34b55627e8              201 Release
+ 16357ef8697c414edc3f7db951899272             9688 main/binary-amd64/Packages
+ 4e8fe6532d7b17d1cd842abd9c89a4a6             3475 main/binary-amd64/Packages.gz
+SHA1:
+ 0a1e6105993ff827661b2915cb75a223acfd1501              201 Release
+ 3e47fc3728a39d30e6df7345ab35f7a1b3326892             9688 main/binary-amd64/Packages
+ 1ef3f68c279c20b7c9d15118b80f706807942a5d             3475 main/binary-amd64/Packages.gz
+SHA256:
+ 1b8a05d4c4f863544263b94f003a07a30702ebdd07a3977ab56c17715481509e              201 Release
+ 65e6e0e8a0ae85fa3b14641807a794f4b2143c19ed8ff067243111cbaa90323e             9688 main/binary-amd64/Packages
+ e3051bb0ee7d2450406177361fd5b69e3feff25b59f68aef344590abd93cd78f             3475 main/binary-amd64/Packages.gz
+SHA512:
+ 30bc72267556d1431dbc87d7aec291e93e1f3d23f7abb706bbcbe59790c5e5fcf7f8abae186c3ac3b6c2fdc862b2eeaa243c5a87bb9d8bf2a21e7ac6337430c1              201 Release
+ fa3833a2fadb317f79cbe20d5ccfdd921fc625035d26f31085c5f22a7a7abae6b28c0d55b5f1feac78d9e086a72ae38d984e1b6930d2ea2afe27bfd0f250e08c             9688 main/binary-amd64/Packages
+ 64e00e1399dc0a1ccccfbe2565d53ad9be4bec68378477d1e0b32dbaa3f8bd220fe45b75fcbf5eab2393f60154bce7436d30d9d04111b0179c6040b2bd23f112             3475 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEElNKaGEPAVty8W6s1DBZ784ju+AFAmqP3oYACgkQ1DBZ784j
+u+CYSBAAk3kZP9747bw42+ruk4fkHVBKciQTOgm0ZGTEpga/KPE65F7IXUkB5drc
+MRaEn6nc8RtPqBS6f7EXFKBzWXq2vfM4K+LI0uGO7wTMn8NbWeDdl5D3zxuNHs0m
+sk++v9w1bt5Po0pQcvrNF34TdWWFYfdRDvq4pTo+eYb1z2sSl2OlGC3+gcrTzAji
+yo3Iy/361XykaP+P22gxd6+ZYGavuPbqZsuU+4lHvbNtaSXbgSGAT4TB2fqaLE9v
+6rujmVuSBoSkuVw43BLFYjIWdjkvaV+kz6k7nezD3gUv308dtEzcTg/mzdcLYeqf
+QqRAA5GblhGfnhrHA0zvlmJ7WRu2kguXUn7vclSNK7SEXiYCNZ9qgU37bruMqw2J
+bJozvDDzbWRbbtXRDSjucv/jN1bDQADcSei9H/w0aPYpTgS6VR+M911q7hgV110y
+Kwse7pSckzB/sPaFWBrG7QRJ4qqvdyhYCqiaPhPPfuIPg9f1N+qcHE/HdgyIu5cr
+S/aPgCJo+DKDDY82tERXdnXMBt86GejGn2b/C6JkCue4tibGOL/EylsIJEjZLmt0
+2wpj1ronzTFwXTMg3mSBu0Pjax8fvdzNFFW9rnfEsKDHn/DeyaGqoaWgYNOrx7dl
+qw5is3TuGB4lXMEVJDzTgvKhVORkaPfjAusEa0TZxYuzteRyi1U=
+=7oID
+-----END PGP SIGNATURE-----
