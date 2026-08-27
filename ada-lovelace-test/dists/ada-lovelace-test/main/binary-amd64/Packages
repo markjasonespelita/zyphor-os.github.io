@@ -58,9 +58,9 @@ Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
 Filename: pool/main/z/zyphor-archive-keyring.deb
 Size: 5692
-MD5sum: 8cac07ecadd45ade78b5ca7516cf9a2b
-SHA1: 1ccaf5052637a13d38b7dbd088e548325b901c4a
-SHA256: 2304321532c03843702c4528ce7b435f42a8636508cf9f6cc8a142b161596e3e
+MD5sum: ea5cab8983fe61e8f45f66ed5a40c9e7
+SHA1: a855ed3995cffed2f653c23c9e504588a785bac3
+SHA256: b7c8894ffba1ece0b88f9ae5b374a98dc89b6c917bfd14848da1b0b9270f4375
 Section: utils
 Priority: optional
 Description: Zyphor OS archive-keyring Configuration
@@ -154,15 +154,15 @@ Priority: optional
 Description: Zyphor OS Release
 
 Package: zyphor-repo-config
-Version: 5.0.0-r5-stable-release
+Version: 5.0.1-r6-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
-Depends: zyphor-archive-keystring
+Depends: zyphor-archive-keyring
 Filename: pool/main/z/zyphor-repo-config.deb
 Size: 980
-MD5sum: b5e2ecdecf1151102abbb8bd9433cd5b
-SHA1: 84cab79e0cb2d2ebb706322307eaede3c4a78bdf
-SHA256: ff3513f9360f97f77d8e74877b87dd04a10c3fb6f4cfa9be02bc6f1e972aa636
+MD5sum: b6d7e17ba5921087f287c7df789d4bbf
+SHA1: f568a7d704cc5ba4ce8d010126231baa42556dbc
+SHA256: f9cd7f3f3c19e879688856efebfea822a7d09a229c276b012f3e0fbbf4e7f97a
 Section: admin
 Priority: optional
 Description: Zyphor OS repository configuration
