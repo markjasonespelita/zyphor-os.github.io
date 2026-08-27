@@ -154,15 +154,15 @@ Priority: optional
 Description: Zyphor OS Release
 
 Package: zyphor-repo-config
-Version: 6.0.0-r7-stable-release
+Version: 6.0.1-r8-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: zyphor-archive-keyring
 Filename: pool/main/z/zyphor-repo-config.deb
-Size: 964
-MD5sum: d963389c833c8c04ad29cc1dc3d96db7
-SHA1: 7ab5302b5d06d79df724760f324b3e42449d6bc7
-SHA256: c3d13d8edf30324a5411a87c750e56648efa02320579f3d4f58dfecfa7925e8b
+Size: 976
+MD5sum: 32961683131a3e5a1711692e8b1e040e
+SHA1: a39aba48f3934ef37f3f03c31afefe45eccee2b6
+SHA256: 8a1b84cc40e3fbf4789eef164ce3486b96c32e8c420b94f6d266458648ba303d
 Section: admin
 Priority: optional
 Description: Zyphor OS repository configuration
