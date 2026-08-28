@@ -140,15 +140,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 47.0.0-r31-stable-release
+Version: 48.0.0-r32-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1096
-MD5sum: ae01bcdf69d3bc368a6a758eba9cc3e9
-SHA1: 654f722ff35025d4624fd9d6afaf0939f3bddcf5
-SHA256: 429255be8536958713a545541c442b2f60856c186c9e1082270c600e41b7402d
+Size: 1100
+MD5sum: b47c3ebe0157323e6f5beab6fbe2dd19
+SHA1: dcdc2fd9d442e37e6344eda289370d0b19ab763a
+SHA256: 45bc0473a987c446ab96303a99c6a870b7c96b8fae9a244e679726df8e6042d4
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -259,15 +259,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 37.0.0-r34-stable-release
+Version: 38.0.0-r35-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3700
-MD5sum: f782e27987a264b7dcfe45077117561f
-SHA1: 6be0e4bea568aae727a4dbecdd834e74c996a5f8
-SHA256: 1503fdf8cde54bcc38aa67f3f27a452b68cffa2e421058dce13dfe422f415331
+Size: 3724
+MD5sum: f2e0231062b8f96da0e05f270f9529ce
+SHA1: eb8b63b7fb78a165ebf110e0e15ed5b9be8bd2b8
+SHA256: 543cb119792b9bd317163820978070126a23c562b89e2a18be33c24bf20d92b8
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
@@ -317,15 +317,15 @@ Priority: optional
 Description: Zyphor OS Windows Installer Application
 
 Package: zywin-ui
-Version: 1.0.1-r2-stable-release
+Version: 1.1.0-r3-stable-release
 Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
 Depends: zywin
 Filename: pool/main/z/zywin-ui.deb
-Size: 156756
-MD5sum: 825c52a0e86837287172c4ad54d27bed
-SHA1: 6441730d9b44454635606844ed38ba1ecfc38414
-SHA256: 02416c2f752160aa0b40f4b73643808f167e6fe9f5b933a8468471ba7cc5ffa4
+Size: 159624
+MD5sum: fea46869865c54291788950802ebcf5b
+SHA1: 4ebf60a95c7f9bec52aee968cca56beac4376ab3
+SHA256: 6a0d4cfb25c66ef529f1edb8c1f311ea988bb923b623a3f336cb723ea8a9ff53
 Section: utils
 Priority: optional
 Description: Zyphor OS zywin-ui Application
