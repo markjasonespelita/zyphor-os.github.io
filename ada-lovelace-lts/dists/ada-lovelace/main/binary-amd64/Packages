@@ -140,15 +140,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 48.0.0-r32-stable-release
+Version: 49.0.0-r32-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
 Size: 1100
-MD5sum: b47c3ebe0157323e6f5beab6fbe2dd19
-SHA1: dcdc2fd9d442e37e6344eda289370d0b19ab763a
-SHA256: 45bc0473a987c446ab96303a99c6a870b7c96b8fae9a244e679726df8e6042d4
+MD5sum: 0d5e328efb2f326adf54545703b07b2b
+SHA1: b36f42feebacc1cd1a4be5cfb12dc97fabc54089
+SHA256: 0f1553f6014f1fd5faadbb649b7345c3f2ea81bfcdcd62de45c826d95423c860
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -259,15 +259,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 38.0.0-r35-stable-release
+Version: 39.0.0-r36-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3724
-MD5sum: f2e0231062b8f96da0e05f270f9529ce
-SHA1: eb8b63b7fb78a165ebf110e0e15ed5b9be8bd2b8
-SHA256: 543cb119792b9bd317163820978070126a23c562b89e2a18be33c24bf20d92b8
+Size: 3804
+MD5sum: 78c5bfea6e97220296784d49d84e9974
+SHA1: cacdeaa8ddd43b2de0c88dca7f1580c56addf089
+SHA256: 2f783b2ad98ebc70e3c1a2047ead26366495f9592f6c72290aba17e9b6f1ce5e
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
@@ -304,14 +304,14 @@ Priority: optional
 Description: Zyphor OS Default Shell
 
 Package: zywin
-Version: 1.1.2-stable-release
+Version: 1.1.3-stable-release
 Architecture: all
 Maintainer: Dan Stephen B. Blanco & Zyphor OS Team
 Filename: pool/main/z/zywin.deb
-Size: 21928
-MD5sum: 036ed7ca1d903b740866734d7dbb46db
-SHA1: 49d08de62b50b4a2398a63fba68af2e0eb6cc1cb
-SHA256: 2187601695896f7636e74919ba1d1853db0def4faf956168a97371b11a16ff4c
+Size: 22040
+MD5sum: 43b041ea167555765cd8d294be575c30
+SHA1: 30715e90edaa5ddea8da9eb0c40aec7bdec4eefe
+SHA256: 10a76e91da9452bc5b87bc28c14c2fc9aec2f72cb1af490b58fa5f670ca92867
 Section: utils
 Priority: optional
 Description: Zyphor OS Windows Installer Application
