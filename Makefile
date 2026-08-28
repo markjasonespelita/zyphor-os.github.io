@@ -23,8 +23,8 @@ add:
 	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
 	git commit -m "chore: update zyphor-whats-new package"
 
-	git add ada-lovelace-lts/pool/main/z/zywin-ui.deb
-	git commit -m "chore: update zywin-ui package"
+	git add ada-lovelace-lts/pool/main/z/zywin.deb
+	git commit -m "chore: update zywin package"
 
 pret:
 	sh prettify v2-ada-lovelace/registry/registry.json
