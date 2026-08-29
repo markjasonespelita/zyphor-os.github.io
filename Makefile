@@ -17,14 +17,8 @@ add:
 	git add ada-lovelace-lts/dists/ada-lovelace/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Packages index"
 
-	git add ada-lovelace-lts/pool/main/z/zycamera-launcher.deb
-	git commit -m "chore: update zycamera-launcher package"
-
-	git add ada-lovelace-lts/pool/main/z/zyphor-whats-new.deb
-	git commit -m "chore: update zyphor-whats-new package"
-
-	git add ada-lovelace-lts/pool/main/z/zysh.deb
-	git commit -m "chore: update zysh package"
+	git add ada-lovelace-lts/pool/main/z/zywin-ui.deb
+	git commit -m "chore: update zywin-ui package"
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
