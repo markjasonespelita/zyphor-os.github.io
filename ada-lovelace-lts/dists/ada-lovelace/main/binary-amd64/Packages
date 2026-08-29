@@ -140,15 +140,15 @@ Priority: optional
 Description: Zyphor OS display mac
 
 Package: zyphor-os-release
-Version: 50.0.0-r33-stable-release
+Version: 51.0.0-r34-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Depends: bash
 Filename: pool/main/z/zyphor-os-release.deb
-Size: 1100
-MD5sum: 67e2f140d574a9066685e1a6806aa316
-SHA1: 04b1eb530a177d5a3f4ea5ea2c87b66d39f3e908
-SHA256: ef299a457dcd72bf37f559d1990387ae965ed5b52e244a8dd5e99b1e6c092fb2
+Size: 1096
+MD5sum: 9336a2f34edd69de0a1781e4659e2eb7
+SHA1: 407320810927d4773dc67044df3a376db37175b9
+SHA256: 7cd5bad2e65c3643466365d797615ca24cedf6f5868383f34b9b7e6935751fab
 Section: utils
 Priority: optional
 Description: Zyphor OS Release
@@ -259,15 +259,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 40.0.0-r37-stable-release
+Version: 41.0.0-r38-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3796
-MD5sum: aae0c8e319e673811cd3e8ab3a037be7
-SHA1: 748c7c307f9f2e8f97bb13d9fdb8dce150375f99
-SHA256: bd961119942328b3c48858c42950a899bb8a9a313a9bac5a542f7a2b95787a09
+Size: 3968
+MD5sum: ad3b1ec802af4a714a12001abfb9d874
+SHA1: c3b9dade8cd222022d30991ac563d35da53e375c
+SHA256: a0383c814774a6d34029272bf50f7293c19f3bc7568006e6823e8bc3443d7f25
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
