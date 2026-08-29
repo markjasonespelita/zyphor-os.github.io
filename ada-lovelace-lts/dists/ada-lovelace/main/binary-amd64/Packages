@@ -27,14 +27,14 @@ Priority: optional
 Description: Zyphor OS Grub Screensaver
 
 Package: zycamera-launcher
-Version: 1.0.2-r3-stable-release
+Version: 1.0.3-r4-stable-release
 Architecture: all
 Maintainer: Mark Jason Espelita & Zyphor OS Team
 Filename: pool/main/z/zycamera-launcher.deb
-Size: 25732
-MD5sum: d68c79b2b94a2eaad782a92d0d5df1cc
-SHA1: 73a57107bb1c3708d22bede312c609ca825b68da
-SHA256: 641dbcdbac998ce9338abc685cc970e63e13819a76c8b13371953a18496ae805
+Size: 25752
+MD5sum: ac28a25bd0b60796e787640ffff30e0f
+SHA1: 75ea10f78e63d233fc8de9a7e7af15a377a54fc6
+SHA256: 15f48dd3498b5e56bec1a45de0be35d0b1231adcdce74612b19b6fd6e5e6315d
 Section: utils
 Priority: optional
 Description: Zyphor OS Camera Launcher
@@ -259,15 +259,15 @@ Priority: optional
 Description: Zyphor OS wallpapers-pragmata
 
 Package: zyphor-whats-new
-Version: 41.0.0-r38-stable-release
+Version: 41.0.1-r39-stable-release
 Architecture: amd64
 Maintainer: Mark Jason P. Espelita
 Depends: xdg-utils
 Filename: pool/main/z/zyphor-whats-new.deb
-Size: 3968
-MD5sum: ad3b1ec802af4a714a12001abfb9d874
-SHA1: c3b9dade8cd222022d30991ac563d35da53e375c
-SHA256: a0383c814774a6d34029272bf50f7293c19f3bc7568006e6823e8bc3443d7f25
+Size: 4016
+MD5sum: 941ae4b2034aad2e8bd781da3bb5e884
+SHA1: fed67b1be54351353334bfb23bbf250109971d57
+SHA256: e3bc1453c210545f7b3f755fe6c9559429feee789f7ee27518514ded5c9d1f25
 Section: utils
 Priority: optional
 Description: Zyphor OS What's New
@@ -275,17 +275,17 @@ Description: Zyphor OS What's New
  and changes in the browser after upgrades.
 
 Package: zysh
-Version: 6.0.0-r6-stable-release
+Version: 6.0.1-r7-stable-release
 Architecture: all
 Maintainer: Mark Jason P. Espelita
 Conflicts: zyshell
 Breaks: zyshell
 Replaces: zyshell
 Filename: pool/main/z/zysh.deb
-Size: 1940
-MD5sum: 6bafe59a05d194086cc0818d5b6dde71
-SHA1: c5660b6eaf68fa7f847b9042a4d19476be68aebd
-SHA256: 5a26a825c53d19315b9a8c3b57a4b7bca734ce1d291b329401eece9b9670887e
+Size: 2000
+MD5sum: 5fe59e893617883c4ac8276b1a16f3f2
+SHA1: c0d56681f1418f6d7dd4dd2c92c1f5fa6182ba1c
+SHA256: eb7b5cf2440cfccc835066044ce63adff4bb035769349ba16abcb485729d8ee6
 Section: utils
 Description: Zyphor OS Default Shell
 
