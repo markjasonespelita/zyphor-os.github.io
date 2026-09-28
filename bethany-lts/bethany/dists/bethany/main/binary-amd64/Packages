@@ -55,6 +55,19 @@ Section: admin
 Priority: optional
 Description: Zyphor OS Desktop Environment Theme
 
+Package: zyphor-face-icon
+Version: 1.0.0-r1-alpha
+Architecture: all
+Maintainer: Mark Jason Espelita <markjasonespelita@gmail.com>
+Filename: pool/main/z/zyphor-face-icon.deb
+Size: 1764
+MD5sum: 8de6686a142f42678e13e6be060783ae
+SHA1: 2aea221ead0c0912c956061939671dbd41fa0204
+SHA256: a844e74e70fc7ff8bb6188f765e53120289b6008c9f90b9af179dfe54be659ec
+Section: utils
+Priority: optional
+Description: Zyphor OS Face Icon
+
 Package: zyphor-fastfetch-config
 Version: 2.0.1-r4-alpha
 Architecture: all
