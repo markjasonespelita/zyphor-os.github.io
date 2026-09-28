@@ -17,7 +17,7 @@ add:
 	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
 	git commit -m "chore: update compressed Bethany package index"
 
-	git add bethany/pool/main/z/zyphor-face-icon.deb
+	git add bethany-lts/bethany/pool/main/z/zyphor-face-icon.deb
 
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
