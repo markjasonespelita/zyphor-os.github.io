@@ -2,23 +2,8 @@ add:
 	git add Makefile
 	git commit -m "chore: modified Makefile"
 
-	git add bethany-lts/bethany/dists/bethany/InRelease
-	git commit -m "chore: update Bethany InRelease"
-
-	git add bethany-lts/bethany/dists/bethany/Release
-	git commit -m "chore: update Bethany Release"
-
-	git add bethany-lts/bethany/dists/bethany/Release.gpg
-	git commit -m "chore: update Bethany Release signature"
-
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages
-	git commit -m "chore: update Bethany package index"
-
-	git add bethany-lts/bethany/dists/bethany/main/binary-amd64/Packages.gz
-	git commit -m "chore: update compressed Bethany package index"
-
-	git add bethany-lts/bethany/pool/main/z/zyphor-face-icon.deb
-
+	git add bethany/pool/main/z/zyphor-face-icon.deb
+	git commit -m "feat: add zyphor face icon package"
 pret:
 	sh prettify ada-lovelace-lts/registry/registry.json
 
